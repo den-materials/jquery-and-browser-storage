@@ -116,6 +116,14 @@ Creating a game, you may wish to allow your users to store their names and high 
 
 [Here](https://developer.mozilla.org/en-US/docs/Web/API/Storage) is a look at some documentation for the Web Storage API.
 
+### localStorage vs sessionStorage
+
+`localStorage` and `sessionStorage` both extend Storage. There is no difference between them except for the intended "non-persistence" of `sessionStorage`.
+
+That is, the data stored in `localStorage` persists until explicitly deleted. Changes made are saved and available for all current and future visits to the site.
+
+For `sessionStorage`, changes are only available per window (or tab in browsers like Chrome and Firefox). Changes made are saved and available for the current page, as well as future visits to the site on the same window. Once the window is closed, the storage is deleted.
+
 ## Warm-up (15 min)
 
 <!-- 9:40 -->
