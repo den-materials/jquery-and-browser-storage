@@ -2,7 +2,7 @@
 ---
 title: Persisting Form Input with jQuery and Browser Storage
 type: lesson
-duration: "1:25"
+duration: "1:00"
 creator:
     name: Ben Hulan
     city: SF
@@ -24,7 +24,7 @@ Well, with jQuery we'll make that process a lot easier.
 
 # Persisting Form Input with jQuery and Browser Storage
 
-<!-- 9:00 -->
+<!-- 5 minutes -->
 
 ### Objectives
 *After this lesson, students will be able to:*
@@ -43,63 +43,14 @@ Well, with jQuery we'll make that process a lot easier.
 
 <!-- CFU Fist-to-five on these concepts -->
 
-## Intro to jQuery (15 min)
+### Independent Practice
 
-<!-- 9:05 -->
-
-### What is jQuery?
-
-**jQuery** is a Javascript library with a lot of useful pre-defined functions and expressions.  Basically you can think of it as a very large chunk of Javascript code that you add to your webpage *before* you add your own Javascript, so you can use all these functions and expressions in your own code.
-
-### Importing jQuery in `index.html`
-
-In order to start with **jQuery**, you need to copy this somewhere on your HTML page, *above* the script import tag of your own Javascript, like this:
-
-```html
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
-<script src="myjavascript.js"></script>
-
-```
-
-### What is "$"
-
-One of the most important pieces of jQuery is the `$` sign.  This is an alias for `jQuery`, and it means "access the jQuery library to do something".  Here are a few examples:
-
-```javascript
-
-$("body").hide(); // Hides the body of your page
-$(".link").css("color", "red"); // Turns all links red
-$(document).ready(function(){
-
-   // Yay our page loaded!!
-   // jQuery methods go here...
-
-});
-```
-
-### jQuery Selectors
-
-Typical jQuery syntax has three parts:
- - A $ sign to define/access jQuery
- - A (selector) to "query (or find)" HTML elements
- - A jQuery action() to be performed on the element(s)
- 
-jQuery selectors fall into the same categories as the CSS selectors you have already seen.  Most importantly:
- - Tag Name (e.g. "p", "h1", "body")
- - Class (e.g. ".default-button", ".col-md-6")
- - ID (e.g. "#catPicture", "#student26")
- 
-So what would I write if I wanted to change student26's background color to blue?
-
-### Independent Practice (10 min)
-
-<!-- 9:30 -->
+<!-- 10 minutes -->
 
 Take a minute to think out the following steps.  In pairs, complete the following steps:
 
- - Create a boilerplate index.html page (remember the <h + `tab` trick in Sublime?)
- - Import jQuery (Hint: use the line above)
+ - Create a boilerplate index.html page (remember the `<h` + `tab` trick in Sublime?)
+ - Import jQuery *Hint: you can use a link from the [previous jQuery lesson](https://github.com/den-wdi-2/intro-jquery)*
  - Create a heading tag (h1, h2, or h3)
  - Give it a class
  - Create an inline-script tag below your jQuery import
@@ -108,6 +59,8 @@ Take a minute to think out the following steps.  In pairs, complete the followin
 Bonus:
 
  - If you have time, use jQuery to select another element, and change its positioning or size
+
+<!-- 5-10 minutes -->
 
 ## Why do we need localStorage?
 In this Unit we will be building Browser games with HTML, CSS and client-side JavaScript. Although we are not yet ready to connect a database on the backend or store data on a server, the browser offers the ability to persist data locally using `sessionStorage`, `localStorage` and some other options we may explore later in the course.
@@ -124,11 +77,11 @@ That is, the data stored in `localStorage` persists until explicitly deleted. Ch
 
 For `sessionStorage`, changes are only available per window (or tab in browsers like Chrome and Firefox). Changes made are saved and available for the current page, as well as future visits to the site on the same window. Once the window is closed, the storage is deleted.
 
-## Warm-up (15 min)
+## Warm-up
 
-<!-- 9:40 -->
+<!-- 15 minutes -->
 
-Before we begin, let's look at the files in `browser-storage-examples`. 
+Before we begin, let's look at the files in this repository. 
 `sessionStorage.html` is the most basic. We will go through this line-by-line in class.
 `localStorage1.html` does the same thing, but it adds the clear button.
 `localStorage2.html` takes things a bit farther. Take a look at the code and _without opening it in the browser_ see if you can explain what's happening.
@@ -137,13 +90,13 @@ Before we begin, let's look at the files in `browser-storage-examples`.
 
 Let's brainstorm some other tasks we can accomplish with localStorage or sessionStorage
 
-## Instructions:
+## Group Exercise:
 
-<!-- 9:55 -->
+<!--20-25 minutes -->
 
 - Divide into groups of 3-4
 - Figure out something to keep track of on a simple single-page web app
-- Create a Form with the <form></form> tag
+- Create an HTML Form
 - Save the info to localStorage
 - Feel free to "borrow" liberally from the example code in the repo, _but no copy-paste_
 
