@@ -24,6 +24,7 @@ Well, with jQuery we'll make that process a lot easier.
 
 # Persisting Form Input with jQuery and Browser Storage
 
+<!--Actually 11:17 -->
 <!-- 5 minutes -->
 
 ### Objectives
@@ -45,12 +46,13 @@ Well, with jQuery we'll make that process a lot easier.
 
 ### Independent Practice
 
+<!--Actually 11:21 for direction giving, 11:23 for start -->
 <!-- 10 minutes -->
 
 Take a minute to think out the following steps.  In pairs, complete the following steps:
 
  - Create a boilerplate index.html page (remember the `<h` + `tab` trick in Sublime?)
- - Import jQuery *Hint: you can use a link from the [previous jQuery lesson](https://github.com/den-wdi-2/intro-jquery)*
+ - Import jQuery *Hint: you can use a link from the [previous jQuery lesson](https://github.com/den-materials/intro-jquery)*
  - Create a heading tag (h1, h2, or h3)
  - Give it a class
  - Create an inline-script tag below your jQuery import
@@ -60,6 +62,7 @@ Bonus:
 
  - If you have time, use jQuery to select another element, and change its positioning or size
 
+<!--Actually 11:33 -->
 <!-- 5-10 minutes -->
 
 ## Why do we need localStorage?
@@ -79,6 +82,7 @@ For `sessionStorage`, changes are only available per window (or tab in browsers 
 
 ## Warm-up
 
+<!--Actually 11:40 -->
 <!-- 15 minutes -->
 
 Before we begin, let's look at the files in this repository. 
@@ -92,9 +96,10 @@ Let's brainstorm some other tasks we can accomplish with localStorage or session
 
 ## Group Exercise:
 
+<!--Actually 11:55 -->
 <!--20-25 minutes -->
 
-- Divide into groups of 3-4
+- Work with your squads
 - Figure out something to keep track of on a simple single-page web app
 - Create an HTML Form
 - Save the info to localStorage
