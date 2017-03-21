@@ -96,7 +96,7 @@ Let's brainstorm some other tasks we can accomplish with localStorage or session
 
 ## Group Exercise:
 
-<!--Actually 11:55 -->
+<!--Actually 11:57 -->
 <!--20-25 minutes -->
 
 - Work with your squads
