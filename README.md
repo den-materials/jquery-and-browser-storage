@@ -24,6 +24,7 @@ Well, with jQuery we'll make that process a lot easier.
 
 # Persisting Form Input with jQuery and Browser Storage
 
+<!--11:13 WDI4 -->
 <!--Actually 11:17 -->
 <!-- 5 minutes -->
 
@@ -47,11 +48,12 @@ Well, with jQuery we'll make that process a lot easier.
 ### Independent Practice
 
 <!--Actually 11:21 for direction giving, 11:23 for start -->
+<!--WDI4 11:17 after directions done -->
 <!-- 10 minutes -->
 
 Take a minute to think out the following steps.  In pairs, complete the following steps:
 
- - Create a boilerplate index.html page (remember the `<h` + `tab` trick in Sublime?)
+ - Create a boilerplate `index.html` page (remember the `<h` + `tab` trick in Sublime?)
  - Import jQuery *Hint: you can use a link from the [previous jQuery lesson](https://github.com/den-materials/intro-jquery)*
  - Create a heading tag (h1, h2, or h3)
  - Give it a class
@@ -62,6 +64,7 @@ Bonus:
 
  - If you have time, use jQuery to select another element, and change its positioning or size
 
+<!--11:29 WDI4 -->
 <!--Actually 11:33 -->
 <!-- 5-10 minutes -->
 
@@ -90,21 +93,25 @@ Before we begin, let's look at the files in this repository.
 `localStorage1.html` does the same thing, but it adds the clear button.
 `localStorage2.html` takes things a bit farther. Take a look at the code and _without opening it in the browser_ see if you can explain what's happening.
 
+<!--11:44 after going through localStorage1.html and sessionStorage.html, then turning over to devs to talk over 2 and 3.html in pairs -->
+
 <!-- CFU: Think-pair-share to explain what's happening on 2nd file -->
 
 Let's brainstorm some other tasks we can accomplish with localStorage or sessionStorage
 
 ## Group Exercise:
 
+<!--WDI4 11:54 -->
 <!--Actually 11:57 -->
 <!--20-25 minutes -->
 
-- Work with your squads
+- Work with your partners
 - Figure out something to keep track of on a simple single-page web app
 - Create an HTML Form
 - Save the info to localStorage
 - Feel free to "borrow" liberally from the example code in the repo, _but no copy-paste_
 
+**Hint:** Form submission will usually try to direct a user to a different page.  You may want to look into [preventDefault](https://api.jquery.com/event.preventdefault/) to prevent this.
 
 _Remember: `localStorage` and `sessionStorage` only store strings, so you may need to `parseInt()` if you need to do anything with the user data after it has been entered._
 
