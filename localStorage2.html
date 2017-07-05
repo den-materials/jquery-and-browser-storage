@@ -17,10 +17,10 @@
 		$("button").click(function(){
 			if(!localStorage.dayIterator || localStorage.dayIterator >= 6){
 				localStorage.dayIterator = 0;
-				document.getElementById("result").innerHTML = "The first day of the week is " + daysOfTheWeek[localStorage.dayIterator] + ".";
+				$("#result").html("The first day of the week is " + daysOfTheWeek[localStorage.dayIterator] + ".");
 			}else{
 					localStorage.dayIterator = Number(localStorage.dayIterator)+1;
-					document.getElementById("result").innerHTML = "The current selected day is " + daysOfTheWeek[localStorage.dayIterator] + ".";
+					$("#result").html("The current selected day is " + daysOfTheWeek[localStorage.dayIterator] + ".");
 			}
 
 		});
@@ -28,7 +28,7 @@
 		//Empty the local storage.
 		$("a").click(function(){
 			localStorage.clear();
-			document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.dayIterator + " time(s).";
+			$("#result").html("The current selected day is " + daysOfTheWeek[localStorage.dayIterator] + ".");
 		});
 	});
 	</script>
