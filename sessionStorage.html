@@ -2,17 +2,20 @@
 <html>
 <head>
 	<title>sessionStorage</title>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous">
+	</script>
 	<script type="text/javascript">
 	
 	$().ready(function(){
 		$("button").click(function(){
 			if(sessionStorage.clickCount){
 				sessionStorage.clickCount = Number(sessionStorage.clickCount)+1;
-				document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickCount + " time(s).";
+				$("#result").html("You have clicked the button " + sessionStorage.clickCount + " time(s).");
 			}else{
 				sessionStorage.clickCount = 1;
-				document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickCount + " time(s).";
+				$("#result").html("You have clicked the button " + sessionStorage.clickCount + " time(s).");
 			}
 		});
 	});
