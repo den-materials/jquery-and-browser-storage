@@ -13,6 +13,8 @@ adapted by:
 ---
  -->
 
+<!--WDI5 11:10 -->
+
 <!-- Hook: So...you're filling out a form for something: taxes, registration, or a sign-up for a website.  You realize you made a mistake, so you hit the back button...but that takes you all the way to the beginning.  And worse yet, all your information is now gone.  You have to start all over again. Raise your hand if this has happened to you.  
 
 Today we will talk about one way to resolve this headache, with localStorage.
@@ -49,6 +51,7 @@ Well, with jQuery we'll make that process a lot easier.
 
 <!--Actually 11:21 for direction giving, 11:23 for start -->
 <!--WDI4 11:17 after directions done -->
+<!--WDI5 11:15 turning over to devs -->
 <!-- 10 minutes -->
 
 Take a minute to think out the following steps.  In pairs, complete the following steps:
@@ -64,6 +67,7 @@ Bonus:
 
  - If you have time, use jQuery to select another element, and change its positioning or size
 
+<!--WDI5 11:25 -->
 <!--11:29 WDI4 -->
 <!--Actually 11:33 -->
 <!-- 5-10 minutes -->
@@ -101,6 +105,7 @@ Let's brainstorm some other tasks we can accomplish with localStorage or session
 
 ## Group Exercise:
 
+<!--WDI5 11:50 -->
 <!--WDI4 11:54 -->
 <!--Actually 11:57 -->
 <!--20-25 minutes -->
@@ -114,6 +119,8 @@ Let's brainstorm some other tasks we can accomplish with localStorage or session
 **Hint:** Form submission will usually try to direct a user to a different page.  You may want to look into [preventDefault](https://api.jquery.com/event.preventdefault/) to prevent this.
 
 _Remember: `localStorage` and `sessionStorage` only store strings, so you may need to `parseInt()` if you need to do anything with the user data after it has been entered._
+
+<!--WDI5 12:15 -->
 
 ## Resources:
 
