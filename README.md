@@ -13,6 +13,7 @@ adapted by:
 ---
  -->
 
+<!--WDI6 11:18 -->
 <!--WDI5 11:10 -->
 
 <!-- Hook: So...you're filling out a form for something: taxes, registration, or a sign-up for a website.  You realize you made a mistake, so you hit the back button...but that takes you all the way to the beginning.  And worse yet, all your information is now gone.  You have to start all over again. Raise your hand if this has happened to you.  
@@ -49,6 +50,7 @@ Well, with jQuery we'll make that process a lot easier.
 
 ### Independent Practice
 
+<!--WDI6 11:23 turning over to devs -->
 <!--Actually 11:21 for direction giving, 11:23 for start -->
 <!--WDI4 11:17 after directions done -->
 <!--WDI5 11:15 turning over to devs -->
@@ -67,6 +69,7 @@ Bonus:
 
  - If you have time, use jQuery to select another element, and change its positioning or size
 
+<!--11:34 WDI6 -->
 <!--WDI5 11:25 -->
 <!--11:29 WDI4 -->
 <!--Actually 11:33 -->
@@ -89,6 +92,7 @@ For `sessionStorage`, changes are only available per window (or tab in browsers 
 
 ## Warm-up
 
+<!--WDI6 11:39 -->
 <!--Actually 11:40 -->
 <!-- 15 minutes -->
 
@@ -98,6 +102,7 @@ Before we begin, let's look at the files in this repository.
 `localStorage2.html` takes things a bit farther. Take a look at the code and _without opening it in the browser_ see if you can explain what's happening.
 
 <!--11:44 after going through localStorage1.html and sessionStorage.html, then turning over to devs to talk over 2 and 3.html in pairs -->
+<!--WDI6 11:49 turning over to devs for last two, coming back 12:01  -->
 
 <!-- CFU: Think-pair-share to explain what's happening on 2nd file -->
 
@@ -121,6 +126,7 @@ Let's brainstorm some other tasks we can accomplish with localStorage or session
 _Remember: `localStorage` and `sessionStorage` only store strings, so you may need to `parseInt()` if you need to do anything with the user data after it has been entered._
 
 <!--WDI5 12:15 -->
+<!--WDI6 12:30 -->
 
 ## Resources:
 
